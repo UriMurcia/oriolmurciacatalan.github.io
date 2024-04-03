@@ -728,5 +728,6 @@ a:focus {
 }
 
 .watch_button {
-  height: 15vh; /* Ajusta la altura según tu diseño */
+  display: inline-block;
+  height: 170px;
 }
