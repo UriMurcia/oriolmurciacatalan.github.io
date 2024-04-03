@@ -40,9 +40,35 @@
               Oriol Murcia
             </span>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenu(event)">
+            <span class="navbar-toggler-icon" ></span>
           </button>
+          <!-- Bocadillo de hamburguesa -->
+
+          <!-- Contenido del menú (puede estar oculto inicialmente) -->
+          <div class="menu-container" id="menu-container">
+            <div class="menu">
+                <ul class="navbar-nav">
+                  <li><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenu(event)">
+                      <span class="navbar-toggler-icon" ></span>
+                    </button></li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="mywork.html">My Work</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+
+          <script src="css/script.js"></script> <!-- Vincula el archivo JavaScript externo -->
+
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
@@ -89,7 +115,7 @@
             <p>
               In this project of the master's degree at UPC we had to coordinate to create our own engine in C++ and later a game created with this same engine.
             </p>
-            <div>
+            <div class="watch_button">
               <a href="https://starfall-rebellion.vercel.app/">
                 More Info
               </a>
@@ -131,7 +157,7 @@
                   Responsible for implementing engine tools, graphic features and all the audio system.
                 </p>
               </div>
-              <div>
+              <div class="watch_button">
                 <a href="https://youtu.be/kg19eiAcFYg?si=H74jJg7HDR72s7ES">
                   Watch Trailer
                 </a>
@@ -152,6 +178,9 @@
       </div>
     </div>
   </section>
+  <div  class="image_separator">
+    <img src="images/separator.png" alt="">
+  </div>
   <section class="who_section layout_padding">
     <div class="container">
       <div class="row">
@@ -173,7 +202,7 @@
             <p>
               Joined the team as a game programmer mid development and I've been responsible of implementing some gameplay features & systems and UIs.
             </p>
-            <div>
+            <div class="watch_button">
               <a href="https://koalainabox.itch.io/catography">
                 More Info
               </a>
@@ -186,6 +215,9 @@
       </div>
     </div>
   </section>
+  <div  class="image_separator">
+    <img src="images/separator.png" alt="">
+  </div>
   <section class="who_section layout_padding">
     <div class="container">
       <div class="row">
@@ -207,7 +239,7 @@
             <p>
               As a final year project of my Multimedia Engineering degree I decided to develop a mobile music game created with Unity.
             </p>
-            <div>
+            <div class="watch_button">
               <a href="https://youtu.be/p5W_g6DwHCw">
                 Watch Gameplay
               </a>
