@@ -728,6 +728,12 @@ a:focus {
 }
 
 .watch_button {
-  display: inline-block;
-  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.watch_button a{
+  margin-left: 20px;
 }
